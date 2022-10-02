@@ -1,1 +1,6 @@
+<<<<<<< Updated upstream
 Task 1 is where this text is created!
+=======
+task 2 is where this text is created.
+some more text so that i can use stash!
+>>>>>>> Stashed changes
