@@ -1,0 +1,10 @@
+stash to remove and store what was made but not comitted
+Apply stash to re-add the changes wihtout removing the stashed item
+stash restore to restore to original without removing the stashed item
+stash pop to add the stash AND remove it from the list
+
+
+git clean -n :dry run(lets you see what clean will do without 
+                      actually removing anything)
+git clean -d : directories
+git clean -f : force
