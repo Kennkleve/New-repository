@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../bootstrap.min.css" />
+    <script src="../../jquery-3.6.0.js"></script>
+    <title>Document</title>
+    <script>
+      $(function () {
+        $('#liveToastBtn').click(function () {
+          $('#liveToast').toast('show');
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button type="button" class="btn btn-primary" id="liveToastBtn">
+      Toast
+    </button>
+    <div class="position-fixed bottom-0 end0 p-3" style="z-index: index 11">
+      <div
+        id="liveToast"
+        class="toast hide"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <strong class="me-auto">TOAST NOTIFICATION</strong>
+          <small>100 years ago</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">The new toast notification</div>
+      </div>
+    </div>
+
+    <script src="../../bootstrap.bundle.min.js"></script>
+  </body>
+</html>
