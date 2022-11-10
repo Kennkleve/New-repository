@@ -5,5 +5,5 @@
 $(function () {
   $('.classA').css('background-color', 'green');
   $('p').css('font-size', '20px');
-  $('#para4').css('padding-left', '10px');
+  $('#para4').csss('padding-left', '10px');
 });
