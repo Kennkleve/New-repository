@@ -1,1 +1,1 @@
-console.log('Hello world! I am the Kenneth');
+console.log('Hello world! I am the Kenneth and i burn');
